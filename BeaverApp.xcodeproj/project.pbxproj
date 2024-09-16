@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		190E86C12C987D9C00CB00A4 /* BeaverAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E86C02C987D9C00CB00A4 /* BeaverAppApp.swift */; };
+		190E86C32C987D9C00CB00A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E86C22C987D9C00CB00A4 /* ContentView.swift */; };
+		190E86C52C987D9D00CB00A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190E86C42C987D9D00CB00A4 /* Assets.xcassets */; };
+		190E86C82C987D9D00CB00A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190E86C72C987D9D00CB00A4 /* Preview Assets.xcassets */; };
+		190E86D22C987D9D00CB00A4 /* BeaverAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E86D12C987D9D00CB00A4 /* BeaverAppTests.swift */; };
+		190E86DC2C987D9D00CB00A4 /* BeaverAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E86DB2C987D9D00CB00A4 /* BeaverAppUITests.swift */; };
+		190E86DE2C987D9D00CB00A4 /* BeaverAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E86DD2C987D9D00CB00A4 /* BeaverAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		190E86CE2C987D9D00CB00A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 190E86B52C987D9C00CB00A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 190E86BC2C987D9C00CB00A4;
+			remoteInfo = BeaverApp;
+		};
+		190E86D82C987D9D00CB00A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 190E86B52C987D9C00CB00A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 190E86BC2C987D9C00CB00A4;
+			remoteInfo = BeaverApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		190E86BD2C987D9C00CB00A4 /* BeaverApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeaverApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		190E86C02C987D9C00CB00A4 /* BeaverAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaverAppApp.swift; sourceTree = "<group>"; };
+		190E86C22C987D9C00CB00A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		190E86C42C987D9D00CB00A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		190E86C72C987D9D00CB00A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		190E86CD2C987D9D00CB00A4 /* BeaverAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeaverAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		190E86D12C987D9D00CB00A4 /* BeaverAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaverAppTests.swift; sourceTree = "<group>"; };
+		190E86D72C987D9D00CB00A4 /* BeaverAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeaverAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		190E86DB2C987D9D00CB00A4 /* BeaverAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaverAppUITests.swift; sourceTree = "<group>"; };
+		190E86DD2C987D9D00CB00A4 /* BeaverAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaverAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		190E86BA2C987D9C00CB00A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		190E86CA2C987D9D00CB00A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		190E86D42C987D9D00CB00A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		190E86B42C987D9C00CB00A4 = {
+			isa = PBXGroup;
+			children = (
+				190E86BF2C987D9C00CB00A4 /* BeaverApp */,
+				190E86D02C987D9D00CB00A4 /* BeaverAppTests */,
+				190E86DA2C987D9D00CB00A4 /* BeaverAppUITests */,
+				190E86BE2C987D9C00CB00A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		190E86BE2C987D9C00CB00A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				190E86BD2C987D9C00CB00A4 /* BeaverApp.app */,
+				190E86CD2C987D9D00CB00A4 /* BeaverAppTests.xctest */,
+				190E86D72C987D9D00CB00A4 /* BeaverAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		190E86BF2C987D9C00CB00A4 /* BeaverApp */ = {
+			isa = PBXGroup;
+			children = (
+				190E86C02C987D9C00CB00A4 /* BeaverAppApp.swift */,
+				190E86C22C987D9C00CB00A4 /* ContentView.swift */,
+				190E86C42C987D9D00CB00A4 /* Assets.xcassets */,
+				190E86C62C987D9D00CB00A4 /* Preview Content */,
+			);
+			path = BeaverApp;
+			sourceTree = "<group>";
+		};
+		190E86C62C987D9D00CB00A4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				190E86C72C987D9D00CB00A4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		190E86D02C987D9D00CB00A4 /* BeaverAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				190E86D12C987D9D00CB00A4 /* BeaverAppTests.swift */,
+			);
+			path = BeaverAppTests;
+			sourceTree = "<group>";
+		};
+		190E86DA2C987D9D00CB00A4 /* BeaverAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				190E86DB2C987D9D00CB00A4 /* BeaverAppUITests.swift */,
+				190E86DD2C987D9D00CB00A4 /* BeaverAppUITestsLaunchTests.swift */,
+			);
+			path = BeaverAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		190E86BC2C987D9C00CB00A4 /* BeaverApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 190E86E12C987D9D00CB00A4 /* Build configuration list for PBXNativeTarget "BeaverApp" */;
+			buildPhases = (
+				190E86B92C987D9C00CB00A4 /* Sources */,
+				190E86BA2C987D9C00CB00A4 /* Frameworks */,
+				190E86BB2C987D9C00CB00A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeaverApp;
+			productName = BeaverApp;
+			productReference = 190E86BD2C987D9C00CB00A4 /* BeaverApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		190E86CC2C987D9D00CB00A4 /* BeaverAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 190E86E42C987D9D00CB00A4 /* Build configuration list for PBXNativeTarget "BeaverAppTests" */;
+			buildPhases = (
+				190E86C92C987D9D00CB00A4 /* Sources */,
+				190E86CA2C987D9D00CB00A4 /* Frameworks */,
+				190E86CB2C987D9D00CB00A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				190E86CF2C987D9D00CB00A4 /* PBXTargetDependency */,
+			);
+			name = BeaverAppTests;
+			productName = BeaverAppTests;
+			productReference = 190E86CD2C987D9D00CB00A4 /* BeaverAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		190E86D62C987D9D00CB00A4 /* BeaverAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 190E86E72C987D9D00CB00A4 /* Build configuration list for PBXNativeTarget "BeaverAppUITests" */;
+			buildPhases = (
+				190E86D32C987D9D00CB00A4 /* Sources */,
+				190E86D42C987D9D00CB00A4 /* Frameworks */,
+				190E86D52C987D9D00CB00A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				190E86D92C987D9D00CB00A4 /* PBXTargetDependency */,
+			);
+			name = BeaverAppUITests;
+			productName = BeaverAppUITests;
+			productReference = 190E86D72C987D9D00CB00A4 /* BeaverAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		190E86B52C987D9C00CB00A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					190E86BC2C987D9C00CB00A4 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					190E86CC2C987D9D00CB00A4 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 190E86BC2C987D9C00CB00A4;
+					};
+					190E86D62C987D9D00CB00A4 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 190E86BC2C987D9C00CB00A4;
+					};
+				};
+			};
+			buildConfigurationList = 190E86B82C987D9C00CB00A4 /* Build configuration list for PBXProject "BeaverApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 190E86B42C987D9C00CB00A4;
+			productRefGroup = 190E86BE2C987D9C00CB00A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				190E86BC2C987D9C00CB00A4 /* BeaverApp */,
+				190E86CC2C987D9D00CB00A4 /* BeaverAppTests */,
+				190E86D62C987D9D00CB00A4 /* BeaverAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		190E86BB2C987D9C00CB00A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190E86C82C987D9D00CB00A4 /* Preview Assets.xcassets in Resources */,
+				190E86C52C987D9D00CB00A4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		190E86CB2C987D9D00CB00A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		190E86D52C987D9D00CB00A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		190E86B92C987D9C00CB00A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190E86C32C987D9C00CB00A4 /* ContentView.swift in Sources */,
+				190E86C12C987D9C00CB00A4 /* BeaverAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		190E86C92C987D9D00CB00A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190E86D22C987D9D00CB00A4 /* BeaverAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		190E86D32C987D9D00CB00A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190E86DC2C987D9D00CB00A4 /* BeaverAppUITests.swift in Sources */,
+				190E86DE2C987D9D00CB00A4 /* BeaverAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		190E86CF2C987D9D00CB00A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 190E86BC2C987D9C00CB00A4 /* BeaverApp */;
+			targetProxy = 190E86CE2C987D9D00CB00A4 /* PBXContainerItemProxy */;
+		};
+		190E86D92C987D9D00CB00A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 190E86BC2C987D9C00CB00A4 /* BeaverApp */;
+			targetProxy = 190E86D82C987D9D00CB00A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		190E86DF2C987D9D00CB00A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		190E86E02C987D9D00CB00A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		190E86E22C987D9D00CB00A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BeaverApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SleepyBeavers.BeaverApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		190E86E32C987D9D00CB00A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BeaverApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SleepyBeavers.BeaverApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		190E86E52C987D9D00CB00A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SleepyBeavers.BeaverAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeaverApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BeaverApp";
+			};
+			name = Debug;
+		};
+		190E86E62C987D9D00CB00A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SleepyBeavers.BeaverAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeaverApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BeaverApp";
+			};
+			name = Release;
+		};
+		190E86E82C987D9D00CB00A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SleepyBeavers.BeaverAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeaverApp;
+			};
+			name = Debug;
+		};
+		190E86E92C987D9D00CB00A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SleepyBeavers.BeaverAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeaverApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		190E86B82C987D9C00CB00A4 /* Build configuration list for PBXProject "BeaverApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				190E86DF2C987D9D00CB00A4 /* Debug */,
+				190E86E02C987D9D00CB00A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		190E86E12C987D9D00CB00A4 /* Build configuration list for PBXNativeTarget "BeaverApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				190E86E22C987D9D00CB00A4 /* Debug */,
+				190E86E32C987D9D00CB00A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		190E86E42C987D9D00CB00A4 /* Build configuration list for PBXNativeTarget "BeaverAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				190E86E52C987D9D00CB00A4 /* Debug */,
+				190E86E62C987D9D00CB00A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		190E86E72C987D9D00CB00A4 /* Build configuration list for PBXNativeTarget "BeaverAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				190E86E82C987D9D00CB00A4 /* Debug */,
+				190E86E92C987D9D00CB00A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 190E86B52C987D9C00CB00A4 /* Project object */;
+}
